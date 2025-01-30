@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	 <listeners>
+        <listener class-name="com.qa.extendReportListener.ExtentReportListener" />
+    </listeners>
+	
+	<test name = "Test">
+		
+		       <!-- <groups>
+				   <run>
+					   <include name="smoke"/>
+				   </run>
+			   </groups>-->
+  
+	  
+    <classes>
+      <class name="com.qa.testcases.ProductPageTest"/>
+    </classes>
+   </test>
+</suite> <!-- Suite -->
